@@ -7,7 +7,7 @@ app=Flask(__name__)
 
 
 CORS(app)
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:Blooddonar%402025@db.rsthllwwpaaaepthxfhk.supabase.co:5432/postgres'
+app.config['SQLALCHEMY_DATABASE_URI']='your supabase uri'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db=SQLAlchemy(app)
 
@@ -92,5 +92,6 @@ def deleteuser():
 
 if __name__=="__main__":
     app.run(debug=True)
+
 
    
