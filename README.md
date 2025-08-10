@@ -31,7 +31,7 @@ Direction to implement this project :
 
 3. Frontend :  ---- open frontend folder
                ---- npx create-next-app app
-               ---- edit src and public folder by the code given by me and for styling view global.css file
+               ---- edit src and public folder by the code given by me and for styling view globals.css file
                ---- cd app
                ---- npm run dev (to start server)
 
