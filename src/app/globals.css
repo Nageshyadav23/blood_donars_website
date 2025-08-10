@@ -1,0 +1,285 @@
+
+
+body{
+  width:99vw;
+  min-height:100vh;
+  background-image:url('../../public/images/bg.jpg');
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+  background-attachment:fixed ;
+
+}
+
+.profile button{
+  margin-right: 10px;
+}
+
+
+.con{
+  background-color:black;
+  opacity: calc(0.7);
+  width:300px;
+  height:300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 800px;
+  border-radius: 40px;
+}
+
+.con h1{
+  font-size: 40px;
+  color:red;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content:space-around;
+  align-items: center;
+}
+.row label{
+  font-size: 18px;
+  color:white;
+  min-width: 80px;
+
+}
+.row input{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.con button{
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+.con button:hover{
+  background-color: green;
+  color: black;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.con p{
+  font-size: 18px;
+  color: white;
+}
+.con p a{
+  color:blue;
+  text-decoration: none;
+}
+.out{
+  margin-bottom: 50px;
+}
+.navbar{
+  margin: 0;
+  padding: 10px 60px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  opacity: calc(0.8);
+  position: fixed;
+  top: 0;
+  width: 92vw;
+  z-index: 2;
+}
+.left button,.navbar button,.search button{
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: red;
+  border-radius: 20px;
+  border:none;
+  color:white;
+  cursor: pointer;
+}
+.left button:hover,.navbar button:hover,.search button:hover{
+  background-color: green;
+  color: black;
+  transform: scale(1.1);
+}
+
+.search{
+  position:absolute;
+  top: 30%;
+  left: 35%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap:15px;
+  color:white;
+  background-color: black;
+  opacity: calc(0.9);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.search label{
+  font-size: 18px;
+}
+
+.search select{
+  padding: 5px 10px;
+  border: none;
+  font-size: 12px;
+   cursor: pointer;
+}
+
+.display{
+  position: absolute;
+  top: 45%;
+  /* background-color: white; */
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  width: 94vw;
+
+}
+
+.display h1{
+  font-size: 30px;
+  color:white;
+  background-color: black;
+  width: inherit;
+  padding:  5px ;
+text-align: center;
+}
+.display div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:start;
+  align-items: start;
+}
+
+.card{
+  min-width: 100px;
+  min-height: 100px;
+  background-color:black;
+  color:white;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction:column;
+  gap:0px;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+.card h2 {
+  margin: 2px 0;
+}
+.card p{
+  display: inline;
+ color:red;
+}
+.card button{
+  margin-top: 4px;
+  margin-left: 90px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.card button:hover{
+  background-color: gold;
+  color:black;
+ transform: scale(1.1);
+}
+.updateform{
+  position: absolute;
+  top: 20%;
+  left: 33%;
+  background-color:black;
+  padding:40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  width:360px;
+}
+
+.up_row{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  width: 100%;
+  gap: 10px;
+}
+.up_row label{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 150px;
+}
+.up_row input,.up_row select{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+cursor: pointer;
+}
+
+.updateform button{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 70%;
+}
+.viewdetails{
+  position: absolute;
+  top:20%;
+  left: 33%;
+  background-color: black;
+  padding: 40px 60px;
+  color: white;
+  font-size: 20px;
+  min-width: 300px;
+  border-radius: 20px;
+}
+.up_row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.up_row2 label{
+  color: red;
+  min-width: 180px;
+  margin: 0;
+  font-weight: bold;
+}
+.up_row2 p{
+  margin: 10px;
+}
